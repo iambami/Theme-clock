@@ -36,7 +36,7 @@ function setTime() {
     secondEl.style.transform = `translate(-50%, -100%) rotate(${scale(seconds, 0, 59, 0, 360)}deg)`  
     
     timeEl.innerHTML = `${hoursForClock}:${minutes < 10 ? `0${minutes}` : `${seconds}`} ${ampm}`
-    dateEl.innerHTML = `${days[day]}, ${months[month]} <span class="circle">${date }</span>`
+    dateEl.innerHTML = `${days[day]}, ${months[month]} <span class="circle">${date}</span>`
 }
 
 
